@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<style>
+		h1{
+			color: orange;
+			text-align: center;
+			font-style: italic;
+			font-family: fantasy;
+		}
+		body{
+			color: white;
+			background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/NASA_Mars_Rover.jpg/1200px-NASA_Mars_Rover.jpg);
+			background-repeat: no-repeat;
+			background-size: cover;
+			margin-top: 40px;
+			text-align-last: center;
+		}
+	</style>
+	<title>FORM</title>
+  </head>
+  <body>
+  	<h1>INTERNATIONAL ROVER CHALLENGE</h1>
+  	<h1>REGISTRATION FORM</h1>
+ 	<form>
+  		<div>
+  		 Name
+  		 <input type="form" placeholder="Full Name"name="name">
+  	  </div>
+  		<div>
+  		 email	
+  		<input type="text" name="email" placeholder="EMAIL ID">
+  		</div>
+  		<div>password
+  		<input type="password" placeholder="Password" name="password">
+		</div>
+		<div>
+		  Country
+  		 <input type="text" placeholder="Enter your Country" name="country">
+  		</div>
+  		<div>
+  			College
+  			<input type="text" placeholder="College Name" name="College">
+  		</div>
+  		<div>
+  			previuosly participated
+  			<input type="radio" name="value" value="yes">yes
+  			<input type="radio" name="value" value="no">no
+  		</div>
+  		<div>
+  			which option best describes your current role
+  			<input name="role" list="role" placeholder="Select current role">
+  			<datalist id="role">
+  				<option value="role 1">
+  				<option value="role 2">
+  				<option value="role 3">
+  			</datalist>
+  			<div>
+  				Any comments/suggestions
+  				<input type="suggestions" name="comments" placeholder="comments">
+  			</div>
+  		</div>
+  		<div>
+  		<input type="Submit">
+  		</div>
+  	</form>	
+  </body>
+</html>
